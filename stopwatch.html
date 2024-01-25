@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stopwatch.css" />
+  <title>Stopwatch</title>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <div class="value">00:00:00</div>
+    </div>
+    <div class="controls">
+      <div class="controls-initial">
+        <button class="button button--green button--start">Старт</button>
+      </div>
+      <div class="controls-active hidden">
+        <button class="button button--blue button--lap">Круг</button> 
+        <button class="button button--red button--pause">Стоп</button>
+      </div>
+      <div class="controls-paused hidden">
+        <button class="button button--red button--reset">Сброс</button>
+        <button class="button button--green button--start button--two">Старт</button>
+      </div>
+    </div>
+    <div class="table">
+      
+    </div>
+  </div>
+  <script src="./stopwatch.js"></script>
+</body>
+</html>
